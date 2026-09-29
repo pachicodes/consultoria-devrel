@@ -56,6 +56,9 @@ p,li { text-wrap:pretty; }
 .service-card a:hover,.text-link:hover { color:var(--focus); text-underline-offset:6px; }
 .band { background:var(--green); color:#fff; }
 .band .lede,.band p { color:#dce9dc; }
+.band .step { color:var(--ink); }
+.band .step h3 { color:var(--ink); }
+.band .step p { color:var(--muted); }
 .book { display:grid; grid-template-columns:1.15fr .85fr; gap:3rem; align-items:center; }
 .book-cover { min-height:290px; background:var(--leaf); padding:2rem; display:flex; align-items:end; position:relative; overflow:hidden; }
 .book-cover::after { content:'DEVREL'; position:absolute; right:-1rem; top:1rem; color:rgba(24,53,45,.14); font:700 5rem/1 'Fraunces',serif; transform:rotate(90deg); }
